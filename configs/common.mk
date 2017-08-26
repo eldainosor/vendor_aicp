@@ -138,7 +138,10 @@ PRODUCT_COPY_FILES += \
 # -include vendor/cyngn/product.mk
 
 # AICP OTA
-ifneq ($(AICP_BUILDTYPE),UNOFFICIAL)
+ifneq ($(AICP_BUILDTYPE),SHISHUlT)
 PRODUCT_PACKAGES +=  \
    AICP_OTA
 endif
+
+BUILD_TRUSHISHU=true
+include vendor/shishu/common.mk
